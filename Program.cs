@@ -42,11 +42,11 @@
 //         vin = i;
 //         maks = prices[i];
 //     }
+// Console.WriteLine($"Минимум: {min}; Индекс: {vin}");
 // }
 
 
 // Задание 4
-// Console.WriteLine($"Минимум: {min}; Индекс: {vin}");
 // int[] balance = { 100, -50, 20, -5, 0, 75 };
 // for (int i = 1; i < balance.Length; i++)
 // {
@@ -81,7 +81,7 @@
 
 
 // Задание 6
-// string[] names = { "Игорь", "Александр", "Вероника", "Ульяна, "Дмитрий" };
+// string[] names = { "Игорь", "Александр", "Вероника", "Ульяна", "Дмитрий"};
 // Console.Write("Введите имя: ");
 // string id = "";
 // string name = Console.ReadLine();
@@ -89,11 +89,11 @@
 // {
 //     if (name == names[i])
 //     {
-//         ind = Convert.ToString(i);
+//         id = Convert.ToString(i);
 //         break;
 //     }
 // }
-// Console.WriteLine(ind);
+// Console.WriteLine(id);
 
 
 
@@ -145,14 +145,14 @@
 
 
 // Допзадание
-int[] arr = { 1, 2, 3, 4, 5, 6 };
-for (int i = 0; i < arr.Length / 2; i++)
-{
-    int a = arr[i];
-    arr[i] = arr[arr.Length - 1 - i];
-    arr[arr.Length - 1 - i] = a;
-}
-foreach (int n in arr)
-{
-    Console.Write(n + " ");
-}
+// int[] arr = { 1, 2, 3, 4, 5, 6 };
+// for (int i = 0; i < arr.Length / 2; i++)
+// {
+//     int a = arr[i];
+//     arr[i] = arr[arr.Length - 1 - i];
+//     arr[arr.Length - 1 - i] = a;
+// }
+// foreach (int n in arr)
+// {
+//     Console.Write(n + " ");
+// }
